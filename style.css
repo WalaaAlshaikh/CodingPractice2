@@ -8,30 +8,159 @@
 
 .home-img {
     width: 30px;
+    position: relative;
+    left: 15px;
 }
 
 .call-img {
     width: 85px;
+
 }
 
+.header {
+    color: #0078d0;
+
+}
+
+.h1{
+    color: #fff;
+}
 .dsn {
-    margin-left: -80px;
+    margin-left: -65px;
+    color: #0078d0;
+    font-weight: bold;
+}
+
+.info {
+    position: relative;
+    top: 10px;
+    line-height: 10px;
+}
+
+#num {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3dc7dc;
+}
+
+.list {
+    position: relative;
+    left: 35px;
+
+}
+
+.contents {
+    position: relative;
+    left: 15px;
+}
+
+span {
+    color: #3dc7dc;
+}
+
+li {
+    width: 1300px;
 }
 
 .text {
     margin-left: -20px;
 }
 
-#bg-img{
-    width: 250px;
-}
-#client-img{
-    width: 500px;
-}
-#ninja-img{
-    width: 130px;
-}
-.html-img{
-    width: 200px;
+.buttom {
+    border: 4px solid rgb(110, 162, 222);
+    padding: 20px;
+
 }
 
+#bg-img {
+    width: 250px;
+}
+
+#client-img {
+    width: 400px;
+    position: relative;
+    left: 400px;
+}
+
+#ninja-img {
+    width: 130px;
+}
+
+.html-img {
+    width: 150px;
+}
+
+.net {
+    background-color: rgba(117, 186, 232, 0.523);
+    margin-bottom: 15px;
+    color: rgb(82, 82, 82);
+
+}
+
+.top {
+    position: relative;
+    top: 15px;
+    align-items: center;
+}
+
+#internet {
+    color: red;
+}
+
+.btns {
+    width: 200px;
+    background-color: #0078d0;
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    padding: 10px 21px;
+
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}
+
+#orange {
+    background-color: orange;
+}
+
+#d-blue {
+    background-color: rgb(30, 141, 189);
+}
+
+
+.btns:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+
+}
+
+.btns:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+
+.in-pic {
+    position: relative;
+    bottom: 350px;
+    color: #fff;
+    left: -10px;
+    text-align: center;
+}
