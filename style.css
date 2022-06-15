@@ -3,7 +3,7 @@
 }
 
 #net {
-    color: rgb(78, 78, 243);
+    color: rgb(118, 208, 238);
 }
 
 .home-img {
@@ -89,11 +89,20 @@ li {
 .html-img {
     width: 150px;
 }
+.all-content{
+    
+background: rgb(217,217,219);
+background: linear-gradient(360deg, rgb(255, 255, 255) 0%, rgba(248,248,248,1) 19%, rgba(194, 199, 216, 0.821) 100%);
+background-repeat: no-repeat;
+background-size: auto 50px;
 
+
+}
 .net {
-    background-color: rgba(117, 186, 232, 0.523);
+    background: rgb(0,127,212);
+background: linear-gradient(180deg, rgba(0,127,212,0.6386263978247548) 0%, rgba(0,127,212,0.16523704208245793) 48%, rgba(0,127,212,0.6890465658919818) 100%);
     margin-bottom: 15px;
-    color: rgb(82, 82, 82);
+    color: rgb(255, 255, 255);
 
 }
 
